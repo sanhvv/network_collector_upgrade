@@ -1,0 +1,40 @@
+# jump configuration section is optional
+# device configuration section is mandatory
+# device config is for all devices. It can be overrode for each device by other ways out of this config file
+#
+# jump:
+#   - name: 'jump-server-1'           # optional
+#     address: '1.1.1.1'              # mandatory
+#     protocol: ''                    # optional, default 'ssh' if 'telnet' not set
+#     port: ''                        # optional, default '22' for ssh, '23' for telnet
+#     username: 'ubuntu'              # mandatory
+#     userident: '~/.ssh/identity'    # optional
+#     userpass: ''                    # optional
+#     cmd: '/usr/bin/ssh'             # optional, default is protocol
+#     prompt: '@.*\$'                 # mandatory, regexp, must be in single quote
+#
+#   - name: 'jump-server-2'
+#     address: '2.2.2.2'
+#     port: '100'
+#     protocol: ''
+#     username: 'cent'
+#     userident: ''
+#     userpass: 'pass'
+#     cmd: 'ssh'
+#     prompt: '@.*\]\$'
+#
+# login to VNPT HTH
+#device:
+#  username: 'vtn'
+#  userpass: '%vtn_hth@c1$c0!'
+#  protocol: 'ssh'                # optional, default 'ssh' if 'telnet' not set
+#  cmd: ''                           # optional, default is protocol
+#  prompt: ''                        # optional, default Cisco device prompt '\n.*#'
+
+#  Login to HN Lab
+device:
+  username: 'cisco'
+  userpass: 'cisco@123'
+  protocol: 'ssh'
+  cmd: ''
+  prompt: ''

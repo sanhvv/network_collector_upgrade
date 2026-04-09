@@ -1,0 +1,15 @@
+! list_cli
+
+terminal length 0
+Show platform
+
+
+
+
+
+
+
+
+
+
+

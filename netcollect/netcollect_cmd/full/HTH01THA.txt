@@ -1,0 +1,198 @@
+! full capture
+
+terminal length 0
+cfs check
+show install active
+show install inactive
+show install committed
+admin show install active
+admin show install committed
+admin show install inactive
+admin show version
+show version
+show hw-module fpd
+admin show fpd package
+show running
+show process cpu
+show processes blocked location all
+show processes memory detail location all
+show processes memory location all
+show memory summary location all
+show watchdog memory-state location all
+show media location all
+admin show media location all
+show filesystem location all
+show platform
+admin show platform
+show platform vm
+show sdr
+admin show sdr
+show context location all
+show inventory all
+admin show inventory all
+admin show diag detail
+show diag detail
+show pfm location all
+show alarms
+admin show environment all
+admin show led
+show redundancy summary
+show redundancy
+admin show reboot-history
+show cdp neighbor
+show controllers fabric fia errors egress
+show controllers fabric fia errors ingress
+show controllers np counters all
+show controllers np soft-errors all all
+show controllers TenGigE0*
+show controllers TenGigE0* stats
+show controllers HundredGigE0*
+show controllers HundredGigE0* stats
+show controllers GigabitEthernet0*
+show controllers GigabitEthernet0* stats
+show interfaces summary
+show interfaces brief
+show interfaces detail
+show ipv4 interface summary
+show ipv4 interface brief
+show bfd
+show bfd summary
+show bfd session
+show isis
+show isis database
+show isis database detail
+show isis database verbose
+show isis interface brief
+show isis interface
+show isis neighbors
+show isis neighbors detail
+show isis topology summary
+show isis topology multicast-intact
+show isis topology multicast-intact detail
+show isis route multicast-intact
+show isis route multicast-intact detail
+show route summary
+show route
+show route ipv4 multicast summary
+show route ipv4 multicast 
+show cef summary
+show cef
+show cef ipv4 drops
+show cef resource hardware egress
+show cef resource hardware ingress
+show mpls interfaces
+show mpls label table summary
+show mpls ldp summary
+show mpls ldp neighbor brief
+show mpls ldp neighbor
+show mpls ldp discovery summary
+show mpls ldp discovery brief
+show mpls ldp discovery
+show mpls ldp igp sync brief
+show mpls ldp igp sync 
+show mpls ldp bindings summary
+show mpls ldp bindings brief
+show mpls ldp pseudowire atom-db
+show mpls ldp forwarding summary
+show mpls ldp forwarding
+show mpls traffic-eng tunnel summary
+show mpls traffic-eng tunnel brief
+show mpls traffic-eng tunnel tabular
+show mpls traffic-eng tunnel
+show mpls traffic-eng forwarding
+show mpls traffic-eng topology summary
+show mpls traffic-eng topology
+show mpls traffic-eng fast-reroute database
+show mpls traffic-eng autoroute
+show mpls traffic-eng forwarding
+show mpls forwarding summary
+show mpls forwarding
+show rsvp summary
+show rsvp session
+show rsvp neighbors
+show mrib route summary
+show mrib route 
+show mfib route summary
+show mfib route
+show pim summary
+show pim topology summary
+show pim neighbor count
+show igmp summary
+show igmp groups summary
+show bgp all all neighbors brief
+show bgp all all summary
+show bgp all all process
+show bgp all all process performance detail
+show bgp all all process performance-statistics detail
+show vrf all
+show route vrf all summary
+show route vrf all
+show l2vpn
+show l2vpn atom-db
+show l2vpn xconnect summary
+show l2vpn xconnect brief
+show l2vpn xconnect
+show l2vpn xconnect detail
+show l2vpn bridge-domain summary
+show l2vpn bridge-domain brief
+show l2vpn bridge-domain
+show l2vpn bridge-domain detail
+show l2vpn forwarding bridge-domain mac-address location 0/0/CPU0
+show l2vpn forwarding bridge-domain mac-address location 0/1/CPU0
+show dhcp ipv4 relay profile
+show dhcp ipv4 relay statistics
+show vrrp summary
+show vrrp brief
+show policy-map interface all
+ping mpls ipv4 123.29.37.1/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.2/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.11/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.12/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.13/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.14/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.15/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.16/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.17/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.18/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.19/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.20/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.21/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.22/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.23/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.24/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.25/32 time 1 repeat 3
+traceroute 123.29.37.1 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.2 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.11 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.12 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.13 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.14 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.15 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.16 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.17 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.18 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.19 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.20 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.21 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.22 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.23 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.24 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.25 nu probe 1 maxttl 10 time 1
+ping vrf HTH-VOD 172.16.138.238 time 1 repeat 3
+ping vrf HTH-VOD 172.16.138.254 time 1 repeat 3
+ping vrf HTH-VOD 172.16.138.234 time 1 repeat 3
+ping vrf HTH-VOD 172.16.138.246 time 1 repeat 3
+ping vrf VPRN-31028822 10.149.125.226 time 1 repeat 3
+ping vrf VPRN-31028822 10.149.125.230 time 1 repeat 3
+ping vrf VPRN-31028821 10.149.124.226 time 1 repeat 3
+ping vrf VPRN-31028821 10.149.124.230 time 1 repeat 3
+show ntp status
+show ntp associations
+show logging
+
+
+
+
+
+
+

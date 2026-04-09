@@ -1,0 +1,138 @@
+! lite capture
+
+terminal length 0
+cfs check
+show install active summary
+show install committed summary
+admin show install active summary
+admin show install committed summary
+show hw-module fpd
+admin show fpd package
+show running
+show watchdog memory-state location all
+show memory summary location all
+show media location all
+admin show media location all
+show platform
+admin show platform
+show platform vm
+show redundancy summary
+show cdp neighbor
+show interfaces summary
+show interfaces brief
+show ipv4 interface summary
+show ipv4 interface brief
+show bfd
+show bfd summary
+show bfd session
+show isis
+show isis interface brief
+show isis neighbors
+show isis topology summary
+show isis topology multicast-intact
+show isis route
+show route summary
+show route ipv4 multicast summary
+show cef summary
+show cef
+show mpls interfaces
+show mpls label table summary
+show mpls ldp summary
+show mpls ldp neighbor brief
+show mpls ldp discovery summary
+show mpls ldp discovery brief
+show mpls ldp igp sync brief
+show mpls ldp bindings summary
+show mpls ldp bindings brief
+show mpls ldp pseudowire atom-db
+show mpls ldp forwarding summary
+show mpls ldp forwarding
+show mpls traffic-eng tunnel summary
+show mpls traffic-eng tunnel brief
+show mpls traffic-eng tunnel tabular
+show mpls traffic-eng forwarding
+show mpls traffic-eng topology summary
+show mpls traffic-eng fast-reroute database
+show mpls traffic-eng autoroute
+show mpls traffic-eng forwarding
+show mpls forwarding summary
+show rsvp summary
+show rsvp session
+show mrib route summary
+show mfib route summary
+show pim summary
+show pim topology summary
+show pim neighbor count
+show igmp summary
+show igmp groups summary
+show bgp all all neighbors brief
+show bgp all all summary
+show bgp all all process
+show vrf all
+show route vrf all summary
+show l2vpn
+show l2vpn atom-db
+show l2vpn xconnect summary
+show l2vpn xconnect brief
+show l2vpn xconnect
+show l2vpn bridge-domain summary
+show l2vpn bridge-domain brief
+show l2vpn forwarding bridge-domain mac-address location 0/0/CPU0
+show l2vpn forwarding bridge-domain mac-address location 0/1/CPU0
+show dhcp ipv4 relay profile
+show dhcp ipv4 relay statistics
+ping mpls ipv4 123.29.37.1/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.2/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.11/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.12/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.13/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.14/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.15/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.16/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.17/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.18/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.19/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.20/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.21/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.22/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.23/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.24/32 time 1 repeat 3
+ping mpls ipv4 123.29.37.25/32 time 1 repeat 3
+traceroute 123.29.37.1 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.2 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.11 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.12 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.13 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.14 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.15 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.16 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.17 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.18 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.19 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.20 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.21 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.22 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.23 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.24 nu probe 1 maxttl 10 time 1
+traceroute 123.29.37.25 nu probe 1 maxttl 10 time 1
+ping vrf HTH-VOD 172.16.138.238 time 1 repeat 3
+ping vrf HTH-VOD 172.16.138.254 time 1 repeat 3
+ping vrf HTH-VOD 172.16.138.234 time 1 repeat 3
+ping vrf HTH-VOD 172.16.138.246 time 1 repeat 3
+ping vrf VPRN-31028822 10.149.125.226 time 1 repeat 3
+ping vrf VPRN-31028822 10.149.125.230 time 1 repeat 3
+ping vrf VPRN-31028821 10.149.124.226 time 1 repeat 3
+ping vrf VPRN-31028821 10.149.124.230 time 1 repeat 3
+show ntp status
+show ntp associations
+
+
+
+
+
+
+
+
+
+
+
