@@ -1,0 +1,6 @@
+# Configuration file for Network Collect
+
+
+- name: "VNPT Pilot Project - Software Upgrade"
+  login_config_file: "/Users/truole/Library/CloudStorage/OneDrive-Cisco/Active_Projects/VNPT_Pilot/Software_Upgrade/netcollect/login_config.yml"
+  device_seed_file: "/Users/truole/Library/CloudStorage/OneDrive-Cisco/Active_Projects/VNPT_Pilot/Software_Upgrade/netcollect/device_list.csv"
