@@ -500,7 +500,7 @@ netcollect.py:
 
 ## Original Author
 
-Developed by Truong Le (truole@cisco.com)
+Developed by Sanh (savu)
 
 ## Support & References
 
